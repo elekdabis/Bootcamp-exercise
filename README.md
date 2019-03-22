@@ -1,2 +1,2 @@
 # Bootcamp-exercise
-Materials fo QA course
+Materials from QA course
