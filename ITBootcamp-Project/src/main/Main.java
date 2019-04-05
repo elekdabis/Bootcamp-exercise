@@ -31,19 +31,19 @@ public class Main {
 			RegistrationForm.navigateTo(driver);
 
      		// Test registrovanja svih korisnika iz eksel tabele
-			//RegistrationFormTest.allExcelElements(driver);
+			RegistrationFormTest.allExcelElements(driver);
 
 			// Test logovanja svih korisnika prethodno registrovanih iz eksel tabele
-			//LogInFormTest.fillFormAllElements(driver);
+			LogInFormTest.fillFormAllElements(driver);
 
 			// Test logovanja jednog korisnika iz eksel tabele
 			LogInFormTest.fillFormFromExSheet(driver, 4);
 
 			// Test postavljanje svih postova iz eksel tabele
-			//MakeAPostTest.allPostsFromExSheet(driver);
+			MakeAPostTest.allPostsFromExSheet(driver);
 
 			// Test brisanja postova tog korisnika
-			//PostPageTest.deletePosts(driver, 95);
+			PostPageTest.deletePosts(driver, 95);
 
 			// Test menjanja opisa posta
 			PostPageTest.editPost(driver);
